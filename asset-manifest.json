@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/social-news/static/css/main.e6c13ad2.css",
+    "main.js": "/social-news/static/js/main.7dea882c.js",
+    "index.html": "/social-news/index.html",
+    "main.e6c13ad2.css.map": "/social-news/static/css/main.e6c13ad2.css.map",
+    "main.7dea882c.js.map": "/social-news/static/js/main.7dea882c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.7dea882c.js"
+  ]
+}
