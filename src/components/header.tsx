@@ -89,10 +89,10 @@ const Header:FC<{isLoading?: boolean}> = ({isLoading = false}) => {
                     <Typography
                         variant="h6"
                         noWrap
-                        component="a"
-                        href=""
+                        onClick={() => handleCloseNavMenu("/")}
                         sx={{
                             mr: 2,
+                            cursor: 'pointer',
                             display: { xs: 'none', md: 'flex' },
                             fontFamily: 'monospace',
                             fontWeight: 700,
@@ -160,10 +160,10 @@ const Header:FC<{isLoading?: boolean}> = ({isLoading = false}) => {
                     <Typography
                         variant="h5"
                         noWrap
-                        component="a"
-                        href=""
+                        onClick={() => handleCloseNavMenu("/")}
                         sx={{
                             mr: 2,
+                            cursor: 'pointer',
                             display: { xs: 'flex', md: 'none' },
                             flexGrow: 1,
                             fontFamily: 'monospace',
