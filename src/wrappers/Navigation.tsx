@@ -7,7 +7,7 @@ import News from "pages/News";
 import RestrictedWrapper from "./Restricted";
 
 const NavigationWrapper = () => (
-    <BrowserRouter>
+    <BrowserRouter basename={'/social-news'}>
         <Routes>
             <Route path="*" element={<Home />} />
             <Route path="/login" element={<Login />} />
