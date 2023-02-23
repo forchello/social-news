@@ -1,4 +1,4 @@
-## Social News - [Link]("https://forchello.github.io/social-news")
+## Social News - [Link](https://forchello.github.io/social-news)
 
 ### Prerequisites
 
@@ -12,7 +12,7 @@
 ### Web application that can display the following pages:
 
 - ```/``` - main, arbitrary content.
-- ```/news``` – page with news using own [API]("https://github.com/forchello/json-news-server"). Implemented the "upload more" button when clicking on which the posts are loaded, implemented the deletion of the news.
+- ```/news``` – page with news using own [API](https://github.com/forchello/json-news-server). Implemented the "upload more" button when clicking on which the posts are loaded, implemented the deletion of the news.
 - ```/profile``` - page with arbitrary text, inaccessible without authorization.
 - ```/login``` - page for authorization.
 
