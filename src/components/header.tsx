@@ -1,5 +1,5 @@
 import { FC, useState, MouseEvent } from "react";
-import { useLocation, useNavigate} from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import {
     AppBar,
     Toolbar,
@@ -90,7 +90,7 @@ const Header:FC<{isLoading?: boolean}> = ({isLoading = false}) => {
                         variant="h6"
                         noWrap
                         component="a"
-                        href="/"
+                        href=""
                         sx={{
                             mr: 2,
                             display: { xs: 'none', md: 'flex' },

@@ -99,7 +99,7 @@ const NewsCard: FC<{ article: IArticle; index: number, onDelete: () => void }> =
                 onClick={onDelete}
                 sx={{position: "absolute", top: 10, right: 10, zIndex: 100, color: 'white', cursor: 'pointer'}}
             />
-            <CardMedia className={classes.media} image={'/empty.webp'}/>
+            <CardMedia className={classes.media} image={'./empty.webp'}/>
             <CardHeader className={classes.header} title={article.title}/>
             <CardContent>
                 <Typography variant="body2" color="text.secondary">
