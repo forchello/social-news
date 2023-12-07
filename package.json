@@ -1,5 +1,5 @@
 {
-  "homepage": "https://forchello.github.io/social-news",
+  "homepage": "https://social-news-one.vercel.app",
   "name": "social-news",
   "version": "1.0.0",
   "private": true,
@@ -32,7 +32,8 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "server": "npm run build && serve -s build"
   },
   "eslintConfig": {
     "extends": [
@@ -56,7 +57,6 @@
     "@typescript-eslint/eslint-plugin": "^5.52.0",
     "@typescript-eslint/parser": "^5.52.0",
     "eslint": "^8.34.0",
-    "eslint-plugin-react": "^7.32.2",
-    "gh-pages": "^5.0.0"
+    "eslint-plugin-react": "^7.32.2"
   }
 }
