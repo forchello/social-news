@@ -20,7 +20,7 @@ import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
 import { useTranslation } from "react-i18next";
 import { userSlice } from "store/reducers/UserSlice";
 import { useAppDispatch, useAppSelector } from "hooks/redux";
-import { useTheme } from "@mui/styles";
+import { useTheme } from "@mui/material/styles";
 import { Theme } from "@mui/material";
 
 import SelectLanguage from 'components/selectLanguage';

@@ -1,7 +1,7 @@
 import {FC, useCallback, useState} from "react";
 import {MenuItem, Select, SelectChangeEvent, SxProps, Theme} from "@mui/material";
 import {useTranslation} from "react-i18next";
-import {useTheme} from "@mui/styles";
+import {useTheme} from "@mui/material/styles";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const languages = [
