@@ -1,0 +1,27 @@
+{
+  "appbar": {
+    "home": "Home",
+    "news": "News",
+    "profile": "Profile",
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "login": {
+    "title": "Login",
+    "username": "Username",
+    "password": "Password",
+    "logout": "Logout",
+    "invalid_username": "Sorry, invalid username!",
+    "invalid_password": "Sorry, invalid password!"
+  },
+  "profile": {
+    "title": "User Profile"
+  },
+  "news": {
+    "load_more": "Load more"
+  },
+  "home": {
+    "title": "This site uses an API that was written by me for ease of use.",
+    "link": "Link"
+  }
+}
