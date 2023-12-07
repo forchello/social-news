@@ -1,8 +1,8 @@
-## Social News - [Link](https://forchello.github.io/social-news)
+## Social News - [Link](https://social-news-one.vercel.app)
 
 ### Prerequisites
 
-- ```NodeJS 14+```
+- ```NodeJS 16+```
 
 ### Setup
 
